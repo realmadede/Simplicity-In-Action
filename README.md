@@ -19,9 +19,9 @@ A simple and clean login interface project built using HTML5.
 
 ### Video Preview
 
-<video width="700" controls>
-  <source src="demo.mp4" type="video/mp4">
-</video>
+## Demo
+
+👉 [Download / View Demo Video](https://raw.githubusercontent.com/realmadede/Simplicity-In-Action/main/demo.mp4)
 
 ---
 
