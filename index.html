@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplicity in Action</title>
+</head>
+<body>
+
+    <button onclick="abc.showModal()">Login !</button>
+
+    <dialog id="abc">
+        <h1>Login !</h1>
+    <details>
+        <summary>Fill Your Information: </summary>
+        <form action="">
+            Username : <br>
+            <input type="text" placeholder="Enter: ">
+            <br>
+            Password : <br>
+            <input type="text" placeholder="Enter: ">
+            <br>
+            Choose Your Course: 
+            <select>
+                <option value=" ">Course</option>
+                <option value="BSc CS">BSc CS </option>
+                <option value="BSc CEIT">BSc CEIT</option>
+                <option value="BSc Tel">BSc Tel</option>
+                <option value="BSc EE">BSc EE</option>
+            </select>
+            <br>
+            <label>
+            Male <input type="radio" name="gender" value="Male">
+            </label>
+
+            <label>
+            Female <input type="radio" name="gender" value="Female">
+            </label>
+
+            <label>
+            Other <input type="radio" name="gender" value="Other">
+            </label>
+            <br>
+            <button>Submit</button>
+        </form>
+    </details>
+        <br>
+        <button onclick="abc.close()">Close !</button>
+    </dialog>
+    
+</body>
+</html>
