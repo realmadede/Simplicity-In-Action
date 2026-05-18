@@ -26,3 +26,6 @@ A simple and clean login interface project built using HTML5.
 ---
 
 ## Project Structure
+simplicity-in-action/
+│── index.html
+│── demo.mp4
